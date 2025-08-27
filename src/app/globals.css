@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Nunito:wght@300;400;600&display=swap' );
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@300;400;600&display=swap');
+
+/* Configuração global de fontes */
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif; /* Texto padrão */
+  background-color: #0d1117; /* opcional: fundo escuro estilo Arqueiro Verde */
+  color: #e0e0e0; /* cor padrão do texto */
+}
+
+/* Títulos globais */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Russo One", sans-serif;
+  letter-spacing: 1px;
+  color: #00ff9b; /* Verde-água vibrante */
+  margin: 0.5em 0;
+  font-weight: 400;
+  text-transform: uppercase; /* Fica ótimo com esta fonte */
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
