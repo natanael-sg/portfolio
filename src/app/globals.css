@@ -1,23 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&family=Nunito:wght@300;400;600&display=swap' );
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Josefin+Sans:wght@300;400;600&display=swap');
+/* 1. Importa a fonte 'Outfit' do Google Fonts com os pesos desejados */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap' );
 
-/* Configuração global de fontes */
+/* 2. Configuração global de fontes e cores */
 html, body {
   margin: 0;
   padding: 0;
-  font-family: "Josefin Sans", sans-serif; /* Texto padrão */
-  background-color: #0d1117; /* opcional: fundo escuro estilo Arqueiro Verde */
-  color: #e0e0e0; /* cor padrão do texto */
+  font-family: "Outfit", sans-serif; /* Define 'Outfit' como a fonte padrão */
+  font-weight: 300; /* Define o peso leve como padrão para todo o texto */
+  background-color: #0d1117; /* Fundo escuro (opcional, como no exemplo) */
+  color: #e0e0e0; /* Cor de texto clara para bom contraste */
 }
 
-/* Títulos globais */
+/* 3. Estilização para todos os títulos (h1, h2, h3, h4, h5, h6) */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Russo One", sans-serif;
-  letter-spacing: 1px;
-  color: #00ff9b; /* Verde-água vibrante */
-  margin: 0.5em 0;
-  font-weight: 400;
-  text-transform: uppercase; /* Fica ótimo com esta fonte */
+  font-weight: 600; /* Usa um peso maior para dar destaque, sem ser o "bold" máximo */
+  color: #00ff9b; /* Cor verde-água vibrante para os títulos (opcional) */
+  margin: 0.7em 0; /* Espaçamento vertical para melhor leitura */
+  letter-spacing: 0.5px; /* Leve espaçamento entre letras para um visual mais limpo */
 }
 
 :root {
